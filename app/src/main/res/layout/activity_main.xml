@@ -6,10 +6,40 @@
     android:orientation="vertical"
     tools:context="gengjiawen.me.switchdemo.MainActivity">
 
-    <gengjiawen.me.switchdemo.ChooseTypeRadioGroup
+    <me.gengjiawen.switchdemo.ChooseTypeRadioGroup
         android:id="@+id/choose"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="400dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="hi, wing"
+                    android:textSize="60dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/hiButton"
+            android:text="hi"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </FrameLayout>
 
 
 </LinearLayout>

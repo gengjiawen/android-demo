@@ -1,7 +1,8 @@
-package gengjiawen.me.switchdemo
+package me.gengjiawen.switchdemo
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import timber.log.Timber
 
@@ -11,9 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Timber.plant(Timber.DebugTree());
-        choose.checkedChanged()
-                .subscribe({
-                    Timber.i("it = " + it)
-                })
+
+        hiButton.setOnClickListener {
+                hiButton.text = "xixi"
+                toast("hi")
+        }
     }
 }

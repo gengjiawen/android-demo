@@ -1,4 +1,4 @@
-package gengjiawen.me.switchdemo;
+package me.gengjiawen.switchdemo;
 
 import android.content.Context;
 import android.support.v4.view.ViewConfigurationCompat;

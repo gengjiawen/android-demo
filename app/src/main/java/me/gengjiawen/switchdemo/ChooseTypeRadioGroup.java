@@ -1,9 +1,10 @@
-package gengjiawen.me.switchdemo;
+package me.gengjiawen.switchdemo;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.support.annotation.Nullable;
+import android.text.Html;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -66,6 +67,14 @@ public class ChooseTypeRadioGroup extends LinearLayout {
 
     public interface OnCheckedChangeListener {
         public void onCheckedChanged(int checkedId);
+    }
+
+    public void setRidePrice(double price) {
+        ridePriceTextView.setText(Html.fromHtml(String.format("约 <big>%.1f</big> 元", price), Html.FROM_HTML_MODE_LEGACY));
+    }
+
+    public void setQuickPrice(double price) {
+
     }
 
     public void setChecked(int position) {
