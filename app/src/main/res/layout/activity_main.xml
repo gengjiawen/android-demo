@@ -3,13 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="gengjiawen.me.switchdemo.MainActivity">
-
-    <me.gengjiawen.switchdemo.ChooseTypeRadioGroup
-        android:id="@+id/choose"
-        android:layout_width="match_parent"
-        android:layout_height="400dp" />
+    android:orientation="vertical" >
 
     <FrameLayout
         android:layout_width="match_parent"
