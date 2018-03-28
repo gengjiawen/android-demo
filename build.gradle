@@ -8,7 +8,7 @@ buildscript {
         compileSdkVersion: 27,
         buildToolsVersion: '27.0.3',
         supportLibrary: '27.0.2',
-        kotlin_version: '1.2.30',
+        kotlin_version: '1.2.31',
     ]
 
     repositories {
