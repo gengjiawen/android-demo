@@ -7,7 +7,7 @@ buildscript {
         targetSdkVersion: 23,
         compileSdkVersion: 27,
         buildToolsVersion: '27.0.3',
-        supportLibrary: '27.0.2',
+        supportLibrary: '27.1.1',
         kotlin_version: '1.2.60',
     ]
 
@@ -17,7 +17,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
-        classpath 'com.github.ben-manes:gradle-versions-plugin:0.17.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.20.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
