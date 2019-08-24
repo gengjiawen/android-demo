@@ -1,6 +1,6 @@
 package com.gengjiawen.play
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.gengjiawen.play.R
 import kotlinx.android.synthetic.main.activity_main.*
