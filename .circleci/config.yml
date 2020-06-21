@@ -4,8 +4,6 @@ jobs:
     working_directory: ~/repo
     docker:
       - image: reactnativecommunity/react-native-android
-    environment:
-      ANDROID_NDK_HOME: $ANDROID_NDK
     steps:
       - checkout
       - run: npx envinfo
