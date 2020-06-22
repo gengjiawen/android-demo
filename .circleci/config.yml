@@ -7,7 +7,9 @@ jobs:
     steps:
       - checkout
       - run: npx envinfo
-      - run: chmod +x gradlew && ./gradlew assembleDebug
+      - run: |
+        apt update && apt install fish vim -y
+        chmod +x gradlew && ./gradlew assembleDebug
 
 workflows:
   version: 2
