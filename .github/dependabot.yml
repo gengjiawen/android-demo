@@ -1,0 +1,26 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "21:00"
+    timezone: Asia/Shanghai
+  open-pull-requests-limit: 10
+  reviewers:
+  - gengjiawen
+  ignore:
+  - dependency-name: com.android.support.test:runner
+    versions:
+    - "> 1.0.1, < 2"
+  - dependency-name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+    versions:
+    - 1.4.21-2
+    - 1.4.30
+  - dependency-name: org.jetbrains.kotlin:kotlin-gradle-plugin
+    versions:
+    - 1.4.21-2
+    - 1.4.30
+  - dependency-name: junit:junit
+    versions:
+    - 4.13.1
