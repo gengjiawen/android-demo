@@ -15,7 +15,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.2'
+        classpath 'com.android.tools.build:gradle:4.2.2'
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.20.0'
         classpath "com.vanniktech:gradle-dependency-graph-generator-plugin:0.5.0"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin_version"
