@@ -2,7 +2,7 @@ package me.gengjiawen.switchdemo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import me.gengjiawen.switchdemo.R
 import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {

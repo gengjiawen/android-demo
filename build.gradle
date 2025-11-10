@@ -3,20 +3,20 @@
 buildscript {
 
     ext.versions  = [
-        minSdkVersion: 19,
-        targetSdkVersion: 23,
-        compileSdkVersion: 28,
-        buildToolsVersion: '28.0.3',
-        kotlin_version: '1.7.22',
+        minSdkVersion: 21,
+        targetSdkVersion: 35,
+        compileSdkVersion: 35,
+        buildToolsVersion: '35.0.0',
+        kotlin_version: '2.2.20',
     ]
 
     repositories {
         google()
-        jcenter()
+        mavenCentral()
         gradlePluginPortal()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.2'
+        classpath 'com.android.tools.build:gradle:8.9.0'
         classpath 'com.github.ben-manes:gradle-versions-plugin:0.44.0'
         classpath "com.vanniktech:gradle-dependency-graph-generator-plugin:0.5.0"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin_version"
@@ -32,7 +32,7 @@ apply plugin: "com.github.ben-manes.versions"
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
         maven { url "https://jitpack.io" }
     }
 }
