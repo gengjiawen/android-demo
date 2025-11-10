@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: gengjiawen/android:latest
-      options: --user root
+      options: --user gitpod
 
     steps:
       - name: Checkout code
