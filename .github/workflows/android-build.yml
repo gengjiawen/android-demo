@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: gengjiawen/android:latest
+      options: --user root
 
     steps:
       - name: Checkout code
