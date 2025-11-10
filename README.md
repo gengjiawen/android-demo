@@ -1,3 +1,3 @@
 # My Android Playground
 
-[![CircleCI](https://circleci.com/gh/gengjiawen/android-demo.svg?style=svg)](https://circleci.com/gh/gengjiawen/android-demo)
+[![Android Build](https://github.com/gengjiawen/android-demo/actions/workflows/android-build.yml/badge.svg)](https://github.com/gengjiawen/android-demo/actions/workflows/android-build.yml)
